@@ -8,7 +8,7 @@ public class HomePage {
     private WebDriver driver;
 
     private By searchBox = By.name("search_query");
-    private By searchButton = By.id("search-icon-legacy");
+    private By searchButton = By.className("ytSearchboxComponentSearchButton");
 
     public HomePage(WebDriver driver) {
         this.driver = driver;
